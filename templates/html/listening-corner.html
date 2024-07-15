@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Listening Corner</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="static/css/Stylesheet.css">
+<link rel="icon" href="../static/images/jamies-music-high-resolution-logo-black-transparent.png">
+</head>
+
+<body>
+    
+    <div class="maincontainer">
+    <div class="navbar">
+        <img class="logoimg" src="../../static/images/jamies-music-high-resolution-logo-black-transparent.png" alt="Logo">
+        <a href={{ url_for("index")}}>Home</a>
+        <a href={{ url_for("biography")}} >Biography</a>
+        <a href={{ url_for("lavein")}}>LaVein</a>
+        <a href={{ url_for("garsenda")}}>Garsenda</a>
+        <a href={{ url_for("convulsion")}}>Convulsion</a>
+        <a href={{ url_for("listen")}} class="active">Listening Corner</a>
+        <a href={{ url_for("gallery")}}>Gallery</a>
+        <a href={{ url_for("contact")}}>Contact</a>
+    </div>
+    <Div class="main">
+        <H1>Listening Corner</H1>
+        <h2>Listen to the complete collection of songs I have contributed to here</h2>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3CfoxQ1BdMMY28N6O0XC2H?utm_source=generator" width="100%" height="552" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>    
+    </div>
+</body>

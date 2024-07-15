@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gallery</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="static/css/Stylesheet.css">
+<link rel="icon" href="../static/images/jamies-music-high-resolution-logo-black-transparent.png">
+<script defer src="../../static/js/gallery-script.js"></script>
+</head>
+
+<body>
+    
+    <div class="maincontainer">
+    <div class="navbar">
+        <img class="logoimg" src="../../static/images/jamies-music-high-resolution-logo-black-transparent.png" alt="Logo">
+        <a href={{ url_for("index")}}>Home</a>
+        <a href={{ url_for("biography")}} >Biography</a>
+        <a href={{ url_for("lavein")}}>LaVein</a>
+        <a href={{ url_for("garsenda")}}>Garsenda</a>
+        <a href={{ url_for("convulsion")}}>Convulsion</a>
+        <a href={{ url_for("listen")}}>Listening Corner</a>
+        <a href={{ url_for("gallery")}} class="active">Gallery</a>
+        <a href={{ url_for("contact")}}>Contact</a>
+    </div>
+    <Div class="main">
+        <H1>Gallery</H1>
+
+        <div class="imgwrapper" id="wrapper">
+            <img  src="../../static/images/Gallery1.jpg" id="fullimg">
+            <span>X</span>
+
+        </div> 
+    
+        <div class="img-gl">
+            <img src="../../static/images/Gallery1.jpg"> 
+            <img src="../../static/images/Gallery2.jpg">
+            <img src="../../static/images/Gallery3.jpg">
+            <img src="../../static/images/Gallery4.jpg">
+            <img src="../../static/images/Gallery5.jpg">
+            <img src="../../static/images/Gallery6.jpg">
+        </div>
+    </div>    
+    </div>
+</body>
