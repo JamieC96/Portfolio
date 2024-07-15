@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/Stylesheet.css') }}" />
+<link rel="icon" href="../static/images/jamies-music-high-resolution-logo-black-transparent.png">
+
+</head>
+
+<body>
+    
+    <div class="maincontainer">
+    <div class="navbar">
+        <img class="logoimg" src="static/images/jamies-music-high-resolution-logo-black-transparent.png" alt="Logo">
+        <a href={{ url_for("index")}} class="active">Home</a>
+        <a href={{ url_for("biography")}}>Biography</a>
+        <a href={{ url_for("lavein")}}>LaVein</a>
+        <a href={{ url_for("garsenda")}}>Garsenda</a>
+        <a href={{ url_for("convulsion")}}>Convulsion</a>
+        <a href={{ url_for("listen")}}>Listening Corner</a>
+        <a href={{ url_for("gallery")}}>Gallery</a>
+        <a href={{ url_for("contact")}}>Contact</a>
+    </div>
+    <Div class="main">
+        <h1>Home</h1>
+        <h2>Welcome to my portfolio of my music!</h2>
+        <p>Over the last 4 years, I have spent a lot of my free time working on my creative outputs, the main of these being music. I have mainly focused on writing and releasing music 
+            in the metal and its subgenres. I have mainly worked on 3 projects, all with different sounds that has let me be exposed to different methods and styles of writing. Across
+            my portfolio, you will learn more about myself, my history with music, and the projects that I have worked on recently.  
+        </p>
+        <img class="bodyimg" src="static/images/Burner show pic.png">
+    </div>    
+    </div>
+</body>
